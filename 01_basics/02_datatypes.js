@@ -25,6 +25,7 @@ console.log( 3+
 
     console.log(typeof null); //object
     console.log(typeof undefined); // undefined
-    
+    fjbv
+
     
     
