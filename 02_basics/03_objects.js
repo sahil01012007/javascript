@@ -11,13 +11,24 @@ const User ={
     email: "sahil@123.com"
 }
   
-console.log(User.email);
-console.log(User["full name"]);
-console.log(User[mysym]);
+// console.log(User.email);
+// console.log(User["full name"]);
+// console.log(User[mysym]);
 
 User.email = "sahil@google.com"
-Object.freeze(User)
+// Object.freeze(User)
 User.email = "sahilkharb@microsoft.com"
-console.log(User);
-"
+// console.log(User);
 
+User.greeting = function(){
+    console.log("hello user");
+    
+}
+console.log(User.greeting());
+
+
+User.greetingtwo = function(){
+    console.log(`hello user, ${this.name}`);
+    
+}
+console.log(User.greetingtwo());
