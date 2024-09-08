@@ -24,9 +24,14 @@ const obj2 = {4:"a",5:"b", 6:"c"}
 const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
 
-console.log(Object.keys(User));
-console.log(Object.values(User));
-console.log(Object.entries(User));
+// console.log(Object.keys(User));
+// console.log(Object.values(User));
+// console.log(Object.entries(User));
 
-console.log(User.hasOwnProperty("email"));  // mistake--email not in double quotes
+// console.log(User.hasOwnProperty("email"));  // mistake--email not in double quotes
+
+
+const {email: eml} = User   // destructuring
+// console.log(email);
+console.log(eml);
 
