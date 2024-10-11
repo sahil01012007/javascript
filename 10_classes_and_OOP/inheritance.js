@@ -25,6 +25,7 @@ tea.logMe()
 
 const chai = new teacher('sk','sk@fb.com','999')
 chai.addCousre()
+// chai.logMe()    working
 
 console.log(tea instanceof teacher);    // false
 console.log(tea instanceof User);       // true
