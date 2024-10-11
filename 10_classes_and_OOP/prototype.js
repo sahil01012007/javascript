@@ -1,3 +1,15 @@
+// function -
+//           -
+//            -
+// Array------ ------> object ------> null     
+//             -
+//            -
+//           -
+//   String -    
+
+
+
+
 // let myname = "sahil    "
 // let email = "sk@google.com     "
 
