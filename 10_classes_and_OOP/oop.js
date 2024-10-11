@@ -20,15 +20,22 @@ function User(username, inGameName, Rank){
     this.Rank = Rank
     return this
 }
+const userone = User("sk","xyz","heroic")
+console.log(userone);
+
+
+
+
+
 // const output1 =  User("rorri", "AE-RORRI","master")
 // const output2 =  User("silence", "AE-RORRI","heroic")
 // console.log(output1);
 
 // output ----  of output2..because original me change hogya ek naya istance nhi bana
 
-const output3 = new  User("rorri", "AE-RORRI","master")
-const output4 = new  User("silence", "AE-RORRI","heroic")
-console.log(output3);
+// const output3 = new  User("rorri", "AE-RORRI","master")
+// const output4 = new  User("silence", "AE-RORRI","heroic")
+// console.log(output3);
 
 // output -------  of output 3 only, no overwriting as new keyword is there
 
